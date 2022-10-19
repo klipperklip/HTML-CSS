@@ -18,6 +18,7 @@ body {
     background-image: url('/assets/bg2.png');
     animation: backgroundZoom 10s infinite alternate;
     background-color: cover;
+    background-size: cover;
 }
 
 @keyframes backgroundZoom {
@@ -89,6 +90,11 @@ body {
     padding: 20px;
     border-top: 1px solid green;
     border-bottom: 1px solid green;
+}
+
+.information>div>p1 {
+    font-weight: lighter;
+    font-size: 36px;
 }
 
 @media screen and (max-width: 700px) {
